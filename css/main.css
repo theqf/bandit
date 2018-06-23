@@ -1,0 +1,67 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main {
+    background: url(../images/main_bg2.jpg) top center no-repeat;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.num_box {
+    background: url(../images/machine.png) no-repeat 50% 0;
+    height: 420px;
+    width: 600px;
+    z-index: 8;
+    overflow: hidden;
+    margin: 0 auto;
+    background-size: 97% 90%;
+}
+
+.num {
+    background: url(../images/product.png) top center repeat-y;
+    width: 80px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    top: 144px;
+    left: 81px;
+    border: 3px solid #000;
+}
+
+.btn {
+    background: url(../images/btn_start.png) 0px 0px no-repeat;
+    width: 150px;
+    height: 45px;
+    margin: 0 auto;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.btn2 {
+    background: url(../images/btn_start.png) 0px 0px no-repeat;
+    width: 150px;
+    height: 45px;
+    margin: 0 auto;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.winningDiv {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 115px;
+    z-index: 2;
+}
+
+.winningOption {
+    display: inline-block;
+    visibility: visible;
+    margin-left: 40px;
+}
